@@ -1,0 +1,321 @@
+/**********************************************************************/
+/**********************************************************************/
+/********** 1. Tool Table Styling *************************************/
+/**********************************************************************/
+/**********************************************************************/
+
+/************************************************************/
+/***** 1.1 General Styling **********************************/
+/************************************************************/
+
+/****************************************/
+/***** 1.1. Table Headers ***************/
+/****************************************/
+
+.datasets2tools-tool-table {
+  margin-bottom: 50px;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+/****************************************/
+/***** 1.1. Table Headers ***************/
+/****************************************/
+
+.datasets2tools-tool-table th {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.datasets2tools-tooltable-tool-header {
+  width: 20%;
+}
+
+.datasets2tools-tooltable-cannedanalysis-header {
+  width: 15%;
+}
+
+.datamed .datasets2tools-tool-table th {
+  background-color: #B5EBA9;
+  color: black;
+  border-right: 1px solid black;
+  height: 35px;
+}
+
+.geo .datasets2tools-tool-table th {
+  background-color: #cccccc;
+  color: black;
+  font-size: 8pt;
+  font-weight: bold;
+  height: 20px;
+}
+
+.lincs .datasets2tools-tool-table th {
+  background-color: #3a5278;
+  color: white;
+  border-right: 1px solid white;
+  height: 35px;
+}
+
+/****************************************/
+/***** 1.1. Table Columns ***************/
+/****************************************/
+
+.gds_panel.datasets2tools-tool-table tr {
+}
+
+/****************************************/
+/***** 1.1. Table Columns ***************/
+/****************************************/
+
+.datasets2tools-tool-table td {
+  padding-left: 15px;
+}
+
+.datasets2tools-tool-table .datasets2tools-tool-col td {
+  width: 10%;
+}
+
+.geo .datasets2tools-tool-table td {
+  margin: 0px;
+}
+
+/****************************************/
+/***** 1.1. Table Rows ***************/
+/****************************************/
+
+.lincs .datasets2tools-tooltable-row {
+  border-bottom: 1px dashed grey;
+}
+
+.datasets2tools-tool-table tr:nth-child(odd){
+  background-color: #f8f7f2
+}
+
+.datasets2tools-tool-table tr:hover {
+  background-color: #f2f2f2;
+}
+
+/************************************************************/
+/***** 1.2 Specific Columns *********************************/
+/************************************************************/
+
+/****************************************/
+/***** 1.2.  *******/
+/****************************************/
+
+.datasets2tools-tooltable-tool-col {
+  display: table;
+}
+
+/****************************************/
+/***** 1.2.  *******/
+/****************************************/
+
+.datasets2tools-tooltable-description-col {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+/****************************************/
+/***** 1.2.  *******/
+/****************************************/
+
+.datasets2tools-tooltable-cannedanalysis-col {
+  text-align: center;
+}
+
+/**********************************************************************/
+/**********************************************************************/
+/********** 2. Image and Button Styling *******************************/
+/**********************************************************************/
+/**********************************************************************/
+
+/************************************************************/
+/***** 2.1 Image Styling ************************************/
+/************************************************************/
+
+/****************************************/
+/***** 2.1. Tool Table tool icon ********/
+/****************************************/
+
+.datasets2tools-tooltable-tool-img {
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid #d3d3d3;
+  padding: 1px;
+}
+
+.datamed .datasets2tools-tooltable-tool-img {
+  height: 35px;
+  width: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.geo .datasets2tools-tooltable-tool-img {
+  height: 30px;
+  width: 30px;
+  /*margin-top: 10px;*/
+  /*margin-bottom: 10px;*/
+  margin-left: 5px;
+}
+
+.lincs .datasets2tools-tooltable-tool-img {
+  height: 35px;
+  width: 35px;
+  /*margin-top: 10px;*/
+  /*margin-bottom: 10px;*/
+  margin-left: 10px;
+}
+
+/****************************************/
+/***** 2.1. Tool Info tool icon *********/
+/****************************************/
+
+.datasets2tools-toolinfo-tool-img {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  border: 1px solid black;
+  padding: 1px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/************************************************************/
+/***** 2.2 Button Styling ***********************************/
+/************************************************************/
+
+/****************************************/
+/***** 2.2. Plus button *****************/
+/****************************************/
+
+.datasets2tools-tooltable-plus-button {
+  background: url(chrome-extension://__MSG_@@extension_id__/icons/plus.png);
+  background-size: 100%;
+  height: 20px;
+  width: 20px;
+  margin-left: 30px;
+  margin-top: -3px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/**********************************************************************/
+/**********************************************************************/
+/********** 2. Label Styling ******************************************/
+/**********************************************************************/
+/**********************************************************************/
+
+/************************************************************/
+/***** 2.1 General Styling **********************************/
+/************************************************************/
+
+/****************************************/
+/***** 2.1. Canned Analyses label *******/
+/****************************************/
+
+.datasets2tools-cannedanalyses-label {
+  margin-bottom: 15px;
+}
+
+/****************************************/
+/***** 2.1. Tool Table tool label *******/
+/****************************************/
+
+.datasets2tools-tooltable-tool-label {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+  width: 100%;
+  font-weight: 600;
+}
+
+.datamed .datasets2tools-tooltable-tool-label {
+  padding-left: 10px;
+  font-size: 10pt;
+}
+
+.geo .datasets2tools-tooltable-tool-label {
+  padding-left: 5px;
+  font-size: 8pt;
+}
+
+.lincs .datasets2tools-tooltable-tool-label {
+  padding-left: 10px;
+}
+
+/****************************************/
+/***** 2.1. Tool Name Label *************/
+/****************************************/
+
+.datasets2tools-toolname-label {
+  font-weight: 600;
+  font-size: x-large;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/****************************************/
+/***** 2.1. Tool Info Label *************/
+/****************************************/
+
+.datasets2tools-browsebar-label {
+  font-style: italic;
+}
+
+/****************************************/
+/***** 2.1. Tool Info Label *************/
+/****************************************/
+
+.datasets2tools-browsebar-text {
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
+/**********************************************************************/
+/**********************************************************************/
+/********** 2. Tab Styling ********************************************/
+/**********************************************************************/
+/**********************************************************************/
+
+/************************************************************/
+/***** 2.1 Tool Info ****************************************/
+/************************************************************/
+
+/****************************************/
+/***** 2.1. Tool Info Tab ***************/
+/****************************************/
+
+.datasets2tools-lincs-toolinfo-tab {
+  display: table;
+}
+
+/****************************************/
+/***** 2.1. Go Back Tab *****************/
+/****************************************/
+
+.datasets2tools-lincs-goback-link {
+  font-weight: 600;
+}
+
+.datasets2tools-tooltable-intro {
+  padding: 10px 5px;
+}
+
+.datasets2tools-tooltable-wrapper {
+  padding: 5px 10px;
+}
+
+/************************************************************/
+/***** .  ****************************************/
+/************************************************************/
+
+/****************************************/
+/***** ..  *******/
+/****************************************/
+
