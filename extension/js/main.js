@@ -2,6 +2,7 @@
 ///////// 1. Define Main Function ////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
 ////////// Author: Denis Torre
+////////// Affiliation: Ma'ayan Laboratory, Icahn School of Medicine at Mount Sinai
 ////////// Based on Cite-D-Lite (https://github.com/MaayanLab/Cite-D-Lite).
 
 function main() {
@@ -16,7 +17,7 @@ function main() {
 	Interface.addCannedAnalyses($parents, cannedAnalysisData);
 
 	// Add event listeners for interactivity
-	// eventListener.main(cannedAnalysisData);
+	eventListener.main(cannedAnalysisData);
 	console.log(cannedAnalysisData);
 }
 
