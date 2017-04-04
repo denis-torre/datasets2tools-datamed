@@ -28,7 +28,7 @@ hr {
 }
 
 .container {
-	width: 900px;
+	max-width: 900px;
 }
 
 .col-md-3,
@@ -95,7 +95,7 @@ hr {
 	padding-bottom: 15px;
 	font-size: 12px;
 }
-
+/*
 .row.is-flex {
     display: -webkit-box;
     display: -webkit-flex;
@@ -117,3 +117,4 @@ hr {
     -ms-flex-direction: column;
     flex-direction: column;
 }
+*/
